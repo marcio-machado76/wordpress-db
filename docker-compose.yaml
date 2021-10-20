@@ -17,9 +17,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:latest 5.8.1-fpm-alpine
-    volumes:
-      - wordpress_data:/var/www/html
+    image: wordpress:latest 
     ports:
       - "8080:80"
     restart: always
@@ -33,8 +31,7 @@ services:
 
 volumes:
   db_data: 
-  wordpress_data: 
-
+  
 networks:
   net_wordpress:
     driver: bridge
