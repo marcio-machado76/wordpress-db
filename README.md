@@ -11,11 +11,12 @@
 ### Como utilizar.
   - Para utilizar é necessário o docker e docker-compose instalados na máquina.
     - Para construir essa aplicação basta executar os seguintes comandos:
-    - Dentro do mesmo diretório do arquivo docker-compose.yaml execute:
+    - Dentro do mesmo diretório do arquivo docker-compose.yaml execute:    
       `docker-compose up -d`
     - Aguarde até que o processo de download e a criação dos containers esteja concluída.
-    - Acesso o browser com o endereço ` <localhost:8080> `
-    _ Para encerrar a aplicação, execute o comando:
+    - Acesso o browser com o endereço:     
+       ` http://localhost:8080 `    
+    - Para encerrar a aplicação, execute o comando:    
       `docker-compose down`
 
 
